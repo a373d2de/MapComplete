@@ -28,7 +28,7 @@ export default class Translations {
                 nl: 'Bezig met een foto te uploaden...',
                 es: 'Subiendo tu imagen ...',
                 ca: 'Pujant la teva imatge ...',
-                fr: 'Mettre votre photo en ligne',
+                fr: 'Mise en ligne de votre photo...',
                 gl: 'Subindo a túa imaxe...',
                 de: 'Ihr Bild hochladen...'
             }),
@@ -38,7 +38,7 @@ export default class Translations {
                 nl: "Bezig met {count} foto's te uploaden...",
                 ca: "Pujant {count} de la teva imatge...",
                 es: "Subiendo {count} de tus fotos...",
-                fr: "Mettre votre {count} photos en ligne",
+                fr: "Mise en ligne de {count} photos...",
                 gl: "Subindo {count} das túas imaxes...",
                 de: "{count} Ihrer Bilder hochgeladen..."
             }),
@@ -48,7 +48,7 @@ export default class Translations {
                 nl: 'Gelieve je aan te melden om een foto toe te voegen',
                 es: 'Entra para subir una foto',
                 ca: 'Entra per pujar una foto',
-                fr: 'Connectez vous pour mettre une photo en ligne',
+                fr: 'Connectez-vous pour mettre une photo en ligne',
                 gl: 'Inicia a sesión para subir unha imaxe',
                 de: 'Bitte einloggen, um ein Bild hinzuzufügen'
             }),
@@ -58,7 +58,7 @@ export default class Translations {
                 es: 'Tu foto será publicada: ',
                 ca: 'La teva foto serà publicada: ',
                 nl: 'Jouw foto wordt gepubliceerd: ',
-                fr: 'Votre photo va être publié: ',
+                fr: 'Votre photo va être publiée: ',
                 gl: 'A túa imaxe será publicada: ',
                 de: 'Ihr Bild wird veröffentlicht: '
             }),
@@ -107,7 +107,7 @@ export default class Translations {
                 ca: "Respecta la privacitat. No fotografiïs gent o matrícules",
                 es: "Respeta la privacidad. No fotografíes gente o matrículas",
                 nl: "Fotografeer geen mensen of nummerplaten. Voeg geen Google Maps, Google Streetview of foto's met auteursrechten toe.",
-                fr: "Merci de respecter la vie privée. Ne publiez pas les plaques d\'immatriculation",
+                fr: "Merci de respecter la vie privée. Ne publiez pas les plaques d\'immatriculation.",
                 gl: "Respecta a privacidade. Non fotografes xente ou matrículas",
                 de: "Bitte respektieren Sie die Privatsphäre. Fotografieren Sie weder Personen noch Nummernschilder"
             }),
@@ -116,23 +116,26 @@ export default class Translations {
                 ca: "<span class='thanks'>La teva imatge ha estat afegida. Gràcies per ajudar.</span>",
                 es: "<span class='thanks'>Tu imagen ha sido añadida. Gracias por ayudar.</span>",
                 nl: "<span class='thanks'>Je afbeelding is toegevoegd. Bedankt om te helpen!</span>",
-                fr: "<span class='thanks'>Votre photo est ajouté. Merci beaucoup!</span>",
+                fr: "<span class='thanks'>Votre photo est ajoutée. Merci beaucoup!</span>",
                 gl: "<span class='thanks'>A túa imaxe foi engadida. Grazas por axudar.</span>",
                 de: "<span class='thanks'>Ihr Bild wurde hinzugefügt. Vielen Dank für Ihre Hilfe!</span>",
             }),
             dontDelete: new T({
                 "nl":"Terug",
                 "en":"Cancel",
+                "fr":"Annuler",
                 "de": "Abbrechen"
             }),
             doDelete: new T({
                 "nl":"Verwijder afbeelding",
                 "en":"Remove image",
+                "fr": "Supprimer l'image",
                 "de": "Bild entfernen"
             }),
             isDeleted: new T({
                 "nl":"Verwijderd",
                 "en":"Deleted",
+                "fr": "Supprimé",
                 "de": "Gelöscht"
             })
         },
@@ -142,7 +145,7 @@ export default class Translations {
                 ca: 'Carregant dades...',
                 es: 'Cargando datos...',
                 nl: 'Data wordt geladen...',
-                fr: 'Chargement des données',
+                fr: 'Chargement des données...',
                 gl: 'Cargando os datos...',
                 de: 'Daten werden geladen...'
             }),
@@ -151,7 +154,7 @@ export default class Translations {
                 ca: 'Amplia per veure o editar les dades',
                 es: 'Amplía para ver o editar los datos',
                 nl: 'Zoom in om de data te zien en te bewerken',
-                fr: 'Rapprochez vous sur la carte pour voir ou éditer les données',
+                fr: 'Rapprochez-vous sur la carte pour voir ou éditer les données',
                 gl: 'Achégate para ollar ou editar os datos',
                 de: 'Vergrößern, um die Daten anzuzeigen oder zu bearbeiten'
             }),
@@ -170,6 +173,7 @@ export default class Translations {
                 ca: "La càrrega de dades ha fallat.Tornant-ho a intentar... ({count})",
                 es: "La carga de datos ha fallado.Volviéndolo a probar... ({count})",
                 gl: "A carga dos datos fallou. Tentándoo de novo... ({count})",
+                fr: "Le chargement a échoué. Essayer à nouveau... ({count})",
                 de: "Laden von Daten fehlgeschlagen. Erneuter Versuch... ({count})",
             })
 
@@ -190,7 +194,7 @@ export default class Translations {
                 ca: "Has entrat, benvingut.",
                 es: "Has entrado, bienvenido.",
                 nl: "Je bent aangemeld. Welkom terug!",
-                fr: "Vous êtes connecté, bienvenue",
+                fr: "Vous êtes connecté. Bienvenue!",
                 gl: "Iniciaches a sesión, benvido.",
                 de: "Sie sind eingeloggt, willkommen zurück!"
             }),
@@ -199,7 +203,7 @@ export default class Translations {
                 ca: "Entra per contestar aquesta pregunta",
                 es: "Entra para contestar esta pregunta",
                 nl: "Meld je aan om deze vraag te beantwoorden",
-                fr: "Connectez vous pour répondre à cette question",
+                fr: "Connectez-vous pour répondre à cette question",
                 gl: "Inicia a sesión para responder esta pregunta",
                 de: "Anmelden, um diese Frage zu beantworten",
             }),
@@ -209,7 +213,7 @@ export default class Translations {
                     ca: "Cerca una ubicació",
                     es: "Busca una ubicación",
                     nl: "Zoek naar een locatie",
-                    fr: "Chercher une location",
+                    fr: "Chercher un lieu",
                     gl: "Procurar unha localización",
                     de: "Einen Ort suchen"
                 }),
@@ -218,7 +222,7 @@ export default class Translations {
                     ca: "Cercant...",
                     es: "Buscando...",
                     nl: "Aan het zoeken...",
-                    fr: "Chargement",
+                    fr: "Chargement...",
                     gl: "Procurando...",
                     de: "Auf der Suche..."
 
@@ -228,7 +232,7 @@ export default class Translations {
                     ca: "Res trobat.",
                     es: "Nada encontrado.",
                     nl: "Niet gevonden...",
-                    fr: "Rien n'a été trouvé ",
+                    fr: "Rien n'a été trouvé...",
                     gl: "Nada atopado...",
                     de: "Nichts gefunden..."
                 }),
@@ -284,7 +288,7 @@ export default class Translations {
                 ca: "Has ignorat una pregunta",
                 es: "Has ignorado una pregunta",
                 nl: "Een vraag is overgeslaan",
-                fr: "Une question a été passé",
+                fr: "La question a été passée",
                 gl: "Ignoraches unha pregunta",
                 de: "Eine Frage wurde übersprungen"
             }),
@@ -302,7 +306,7 @@ export default class Translations {
                 ca: "nombre",
                 es: "número",
                 nl: "getal",
-                fr: "Nombre",
+                fr: "nombre",
                 gl: "número",
                 de: "Zahl"
             }),
@@ -331,7 +335,7 @@ export default class Translations {
                     ca: "<h2>Vols afegir un punt?</h2>Has marcat un lloc on no coneixem les dades.<br/>",
                     es: "<h2>Quieres añadir un punto?</h2>Has marcado un lugar del que no conocemos los datos.<br/>",
                     nl: "<h2>Punt toevoegen?</h2>Je klikte ergens waar er nog geen data is. Kies hieronder welk punt je wilt toevoegen<br/>",
-                    fr: "<h2>Pas de données</h2>Vous avez cliqué sur un endroit ou il n'y a pas encore de données. <br/>",
+                    fr: "<h2>Pas de données</h2>Vous avez cliqué sur un endroit où il n'y a pas encore de données. <br/>",
                     gl: "<h2>Queres engadir un punto?</h2>Marcaches un lugar onde non coñecemos os datos.<br/>",
                     de: "<h2>Punkt hinzufügen?</h2>Sie haben irgendwo geklickt, wo noch keine Daten bekannt sind.<br/>"
                 }),
@@ -358,7 +362,7 @@ export default class Translations {
                     ca: "Les dades es segueixen carregant. Espera una mica abans d\'afegir cap punt.",
                     es: "Los datos se siguen cargando. Espera un poco antes de añadir ningún punto.",
                     nl: "De data wordt nog geladen. Nog even geduld en dan kan je een punt toevoegen.",
-                    fr: "Chargement des donnés. Patientez un instant avant d'ajouter un nouveau point.",
+                    fr: "Chargement des données en cours. Patientez un instant avant d'ajouter un nouveau point.",
                     gl: "Os datos seguen a cargarse. Agarda un intre antes de engadir ningún punto.",
                     de: "Die Daten werden noch geladen. Bitte warten Sie etwas, bevor Sie einen neuen Punkt hinzufügen."
                 }),
@@ -367,7 +371,7 @@ export default class Translations {
                     ca: "<h3>Afegir {title} aquí?</h3>El punt que estàs creant <b>el veurà tothom</b>. Només afegeix coses que realment existeixin. Moltes aplicacions fan servir aquestes dades.",
                     es: "<h3>Añadir {title} aquí?</h3>El punto que estás creando <b>lo verá todo el mundo</b>. Sólo añade cosas que realmente existan. Muchas aplicaciones usan estos datos.",
                     nl: "<h3>Voeg hier een {title} toe?</h3>Het punt dat je hier toevoegt, is <b>zichtbaar voor iedereen</b>. Veel applicaties gebruiken deze data, voeg dus enkel punten toe die echt bestaan.",
-                    fr: "<h3>Ajouter un/une {title} ici?</h3>Le point que vous ajouter sera visible par tout le monde. Merci d'etre sûr que ce point existe réellement. Beaucoup d'autres applications reposent sur ces données.",
+                    fr: "<h3>Ajouter un/une {title} ici?</h3>Le point que vous ajouter sera visible par tout le monde. Merci de vous assurer que ce point existe réellement. Beaucoup d'autres applications utilisent ces données.",
                     gl: "<h3>Engadir {title} aquí?</h3>O punto que estás a crear <b>será ollado por todo o mundo</b>. Só engade cousas que realmente existan. Moitas aplicacións empregan estes datos.",
                     de: "<h3>Hier einen {title} hinzufügen?</h3>Der Punkt, den Sie hier anlegen, wird <b>für alle sichtbar sein</b>. Bitte fügen Sie der Karte nur dann Dinge hinzu, wenn sie wirklich existieren. Viele Anwendungen verwenden diese Daten.",
                 }),
@@ -383,12 +387,14 @@ export default class Translations {
                 openLayerControl: new T({
                     "en": "Open the layer control box",
                     "nl": "Open de laag-instellingen",
+                    "fr": "Ouvrir la panneau de contrôle",
                     "de": "Das Ebenen-Kontrollkästchen öffnen"
                 })
                 ,
                 layerNotEnabled: new T({
                     "en": "The layer {layer} is not enabled. Enable this layer to add a point",
                     "nl": "De laag {layer} is gedeactiveerd. Activeer deze om een punt toe te voegn",
+                    "fr": "La couche [layer] est désactivée. Activez-la pour ajouter un point.",
                     "de": "Die Ebene {layer} ist nicht aktiviert. Aktivieren Sie diese Ebene, um einen Punkt hinzuzufügen"
                 })
             },
@@ -406,7 +412,7 @@ export default class Translations {
                 ca: "Edita facilment i afegeix punts a OpenStreetMap d\'una temàtica determinada",
                 es: "Edita facilmente y añade puntos en OpenStreetMap de un tema concreto",
                 nl: "Easily edit and add OpenStreetMap for a certain theme",
-                fr: "Édition facile et ajouter OpenStreetMap pour un certain thème",
+                fr: "Éditer facilement et ajouter OpenStreetMap pour un certain thème",
                 gl: "Editar doadamente e engadir puntos no OpenStreetMap dun eido en concreto",
                 de: "OpenStreetMap für ein bestimmtes Thema einfach bearbeiten und hinzufügen"
             }),
@@ -461,7 +467,7 @@ export default class Translations {
                     ca: "Pàgina web: <a href='{website}' target='_blank'>{website}</a>",
                     es: "Página web: <a href='{website}' target='_blank'>{website}</a>",
                     nl: "Website: <a href='{website}' target='_blank'>{website}</a>",
-                    fr: "Website: <a href='{website}' target='_blank'>{website}</a>",
+                    fr: "Site web: <a href='{website}' target='_blank'>{website}</a>",
                     gl: "Páxina web: <a href='{website}' target='_blank'>{website}</a>",
                     de: "Webseite: <a href='{website}' target='_blank'>{website}</a>",
                 }),
@@ -518,12 +524,12 @@ export default class Translations {
                     "</p>" +
                     "<p>Kortom, als je hier een punt toevoegd of een vraag beantwoord, zal dat na een tijdje ook in al dié applicaties te zien zijn.</p>",
                 fr: "<h3>Une carte ouverte</h3>" +
-                    "<p></p>How incroyable se serait d'avoir sur une carte que tout le monde pourrait éditer ouvertement?" +
-                    "Une seule et unique plateforme regroupant toutes les informations geographiques? Ainsi nous n'aurons plus besoin de toutes ces petites et incompatibles cartes (souvent non mises à jour).</p>" +
-                    "<p><b><a href='https://OpenStreetMap.org' target='_blank'>OpenStreetMap</a></b> est la carte qu'il vous faut!. Toutes les donnees de cette carte peuvent être utilisé gratuitement (avec <a href='https://osm.org/copyright' target='_blank'> d\'attribution et de publication des changements de données</a>)." +
-                    " De plus tout le monde est libre d'ajouter de nouvelles données et corriger les erreurs. Ce site internet utilise également OpenStreetMap. Toutes les données y proviennent et tous les ajouts et modifications y seront également ajoutés.</p>" +
-                    "<p>De nombreux individus et d'applications utilisent déjà OpenStreetMap:  <a href='https://maps.me/' target='_blank'>Maps.me</a>, <a href='https://osmAnd.net' target='_blank'>OsmAnd</a>, mais aussi les cartes de Facebook, Instagram, Apple-maps et Bing-maps sont(en partie) supporté par OpenStreetMap." +
-                    "Si vous modifié quelque chose ici, ces changement seront retranscris sur ces applications aussi - des lors de leur mise à jour! </p>",
+                    "<p></p>Ne serait-il pas génial d'avoir sur une carte que tout le monde pourrait éditer ouvertement?" +
+                    "Une seule et unique plateforme regroupant toutes les informations geographiques? Ainsi nous n'aurons plus toutes ces cartes petites et incompatibles (souvent non mises à jour).</p>" +
+                    "<p><b><a href='https://OpenStreetMap.org' target='_blank'>OpenStreetMap</a></b> est la carte qu'il vous faut!. Toutes les données de cette carte peuvent être utilisé gratuitement (avec <a href='https://osm.org/copyright' target='_blank'> attribution et publication des changements de données</a>)." +
+                    " De plus tout le monde est libre d'ajouter de nouvelles données et de corriger les erreurs. Ce site internet utilise également OpenStreetMap. Toutes les données en proviennent et tous les ajouts et modifications y seront également ajoutés.</p>" +
+                    "<p>De nombreux individus et d'applications utilisent déjà OpenStreetMap: <a href='https://maps.me/' target='_blank'>Maps.me</a>, <a href='https://osmAnd.net' target='_blank'>OsmAnd</a>, mais aussi les cartes de Facebook, Instagram, Apple-maps et Bing-maps sont (en partie) supporté par OpenStreetMap." +
+                    "Si vous modifié quelque chose ici, ces changements seront incorporer dans ces applications dès leurs mises à jour! </p>",
                 gl: "<h3>Un mapa aberto</h3>" +
                     "<p></p>Non sería xenial se houbera un só mapa, que todos puideran empregar e editar de xeito libre?" +
                     "Un só lugar para almacenar toda a información xeográfica? Entón, todos eses sitios web con mapas diferentes, pequenos e incompatíbeis (que sempre están desactualizados) xa non serían necesarios.</p>" +
@@ -547,7 +553,7 @@ export default class Translations {
                     en: "<h3>Share this map</h3> Share this map by copying the link below and sending it to friends and family:",
                     ca: "<h3>Comparteix aquest mapa</h3> Comparteix aquest mapa copiant l\'enllaç de sota i enviant-lo a amics i família:",
                     es: "<h3>Comparte este mapa</h3> Comparte este mapa copiando el enlace de debajo y enviándolo a amigos y familia:",
-                    fr: "<h3>Partager cette carte</h3> Partagez cette carte en copiant le lien suivant et envoyer le à vos amis:",
+                    fr: "<h3>Partager cette carte</h3> Partagez cette carte en copiant le lien suivant et envoyez-le à vos amis:",
                     nl: "<h3>Deel deze kaart</h3> Kopieer onderstaande link om deze kaart naar vrienden en familie door te sturen:",
                     gl: "<h3>Comparte este mapa</h3> Comparte este mapa copiando a ligazón de embaixo e enviándoa ás amizades e familia:",
                     de: "<h3>Diese Karte teilen</h3> Sie können diese Karte teilen, indem Sie den untenstehenden Link kopieren und an Freunde und Familie schicken:",
@@ -557,7 +563,7 @@ export default class Translations {
                     en: "<h3>Add to your home screen</h3>You can easily add this website to your smartphone home screen for a native feel. Click the 'add to home screen button' in the URL bar to do this.",
                     ca: "<h3>Afegir-lo a la pantalla d\'inici</h3>Pots afegir aquesta web a la pantalla d\'inici del teu smartphone per a que es vegi més nadiu. Apreta al botó 'afegir a l\'inici' a la barra d\'adreces URL per fer-ho.",
                     es: "<h3>Añadir a la pantalla de inicio</h3>Puedes añadir esta web en la pantalla de inicio de tu smartphone para que se vea más nativo. Aprieta el botón 'añadir a inicio' en la barra de direcciones URL para hacerlo.",
-                    fr: "<h3>Ajouter à votre page d'accueil</h3> Vous pouvez facilement ajouter la carte à votre écran d'accueil de téléphone. Cliquer sur le boutton 'ajouter à l'evran d'accueil' dans la barre d'URL pour éffecteur cette tâche",
+                    fr: "<h3>Ajouter à votre page d'accueil</h3> Vous pouvez facilement ajouter la carte à votre écran d'accueil de téléphone. Cliquer sur le boutton 'ajouter à l'écran d'accueil' dans la barre d'adresse  pour éffectuer cette tâche.",
                     gl: "<h3>Engadir á pantalla de inicio</h3>Podes engadir esta web na pantalla de inicio do teu smartphone para que se vexa máis nativo. Preme o botón 'engadir ó inicio' na barra de enderezos URL para facelo.",
                     nl: "<h3>Voeg toe aan je thuis-scherm</h3>Je kan deze website aan je thuisscherm van je smartphone toevoegen voor een native feel",
                     de: "<h3>Zum Startbildschirm hinzufügen</h3> Sie können diese Website einfach zum Startbildschirm Ihres Smartphones hinzufügen, um ein natives Gefühl zu erhalten. Klicken Sie dazu in der URL-Leiste auf die Schaltfläche 'Zum Startbildschirm hinzufügen'.",
@@ -566,7 +572,7 @@ export default class Translations {
                     en: "<h3>Embed on your website</h3>Please, embed this map into your website. <br/>We encourage you to do it - you don't even have to ask permission. <br/>  It is free, and always will be. The more people using this, the more valuable it becomes.",
                     ca: "<h3>Inclou-ho a la teva pàgina web</h3>Inclou aquest mapa dins de la teva pàgina web. <br/> T\'animem a que ho facis, no cal que demanis permís. <br/>  És de franc, i sempre ho serà. A més gent que ho faci servir més valuós serà.",
                     es: "<h3>Inclúyelo en tu página web</h3>Incluye este mapa en tu página web. <br/> Te animamos a que lo hagas, no hace falta que pidas permiso. <br/> Es gratis, y siempre lo será. A más gente que lo use más valioso será.",
-                    fr: "<h3>Incorporer à votre website</h3>AJouter la carte à votre website. <br/>On vous en encourage - pas besoin de permission. <br/>  C'est gratuit et pour toujours. Le plus de personnes l'utilisent, le mieux ce sera.",
+                    fr: "<h3>Incorporer à votre website</h3>AJouter la carte à votre website. <br/>Nous vous y encourageons - pas besoin de permission. <br/>  C'est gratuit et pour toujours. Au plus de personnes l'utilisent, au mieux.",
                     gl: "<h3>Inclúeo na túa páxina web</h3>Inclúe este mapa na túa páxina web. <br/> Animámoche a que o fagas, non fai falla que pidas permiso. <br/> É de balde, e sempre será. Canta máis xente que o empregue máis valioso será.",
                     nl: "<h3>Plaats dit op je website</h3>Voeg dit kaartje toe op je eigen website.<br/>We moedigen dit zelfs aan - je hoeft geen toestemming te vragen.<br/> Het is gratis en zal dat altijd blijven. Hoe meer het gebruikt wordt, hoe waardevoller",
                     de: "<h3>Auf Ihrer Website einbetten</h3>Bitte, betten Sie diese Karte in Ihre Website ein. <br/>Wir ermutigen Sie, es zu tun - Sie müssen nicht einmal um Erlaubnis fragen. <br/> Es ist kostenlos und wird es immer sein. Je mehr Leute sie benutzen, desto wertvoller wird sie."
@@ -575,48 +581,56 @@ export default class Translations {
                     en: "Link copied to clipboard",
                     gl: "Ligazón copiada ó portapapeis",
                     nl: "Link gekopieerd naar klembord",
+                    fr: "Lien copié dans le presse-papier",
                     de: "Link in die Zwischenablage kopiert"
                 }),
                 thanksForSharing: new T({
                     en: "Thanks for sharing!",
                     gl: "Grazas por compartir!",
                     nl: "Bedankt om te delen!",
+                    fr: "Merci d'avoir partagé!",
                     de: "Danke für das Teilen!"
                 }),
                 editThisTheme: new T({
                     en: "Edit this theme",
                     gl: "Editar este tema",
                     nl: "Pas dit thema aan",
+                    fr: "Editer ce thème",
                     de: "Dieses Thema bearbeiten"
                 }),
                 editThemeDescription: new T({
                     en: "Add or change questions to this map theme",
                     gl: "Engadir ou mudar preguntas a este tema do mapa",
                     nl: "Pas vragen aan of voeg vragen toe aan dit kaartthema",
+                    fr: "Ajouter ou modifier des questions à ce thème",
                     de: "Fragen zu diesem Kartenthema hinzufügen oder ändern"
                 }),
                 fsUserbadge: new T({
-                    en: "Enable the login-button",
+                    en: "Enable the login button",
                     gl: "Activar botón de inicio de sesión",
                     nl: "Activeer de login-knop",
+                    fr: "Activer le bouton de connexion",
                     de:" Anmelde-Knopf aktivieren"
                 }),
                 fsSearch: new T({
                     en: "Enable the search bar",
                     gl: "Activar a barra de procura",
                     nl: "Activeer de zoekbalk",
+                    fr: "Activer la barre de recherche",
                     de: " Suchleiste aktivieren"
                 }),
                 fsWelcomeMessage: new T({
                     en: "Show the welcome message popup and associated tabs",
                     gl: "Amosar a xanela emerxente da mensaxe de benvida e as lapelas asociadas",
                     nl: "Toon het welkomstbericht en de bijhorende tabbladen",
+                    fr: "Afficher le message de bienvenue et les onglets associés",
                     de: "Popup der Begrüßungsnachricht und zugehörige Registerkarten anzeigen"
                 }),
                 fsLayers: new T({
-                    en: "Enable thelayer control",
+                    en: "Enable the layer control",
                     gl: "Activar o control de capas",
                     nl: "Toon de knop voor laagbediening",
+                    fr: "Activer le contrôle des couches",
                     de: "Aktivieren der Layersteuerung"
                 }),
 
@@ -624,33 +638,39 @@ export default class Translations {
                     en: "Start with the layer control expanded",
                     gl: "Comenza co control de capas expandido",
                     nl: "Toon de laagbediening meteen volledig",
+                    fr: "Démarrer avec le contrôle des couches ouvert",
                     de: "Mit der erweiterten Ebenenkontrolle beginnen"
                 }),
                 fsAddNew: new T({
                     en: "Enable the 'add new POI' button",
                     nl: "Activeer het toevoegen van nieuwe POI",
                     gl: "Activar o botón de 'engadir novo PDI'",
+                    fr: "Activer le bouton 'ajouter un POI'",
                     de: "Schaltfläche 'neuen POI hinzufügen' aktivieren",
                 }),
                 fsGeolocation: new T({
                     en: "Enable the 'geolocate-me' button (mobile only)",
                     gl: "Activar o botón de 'xeolocalizarme' (só móbil)",
                     nl: "Toon het knopje voor geolocalisatie (enkel op mobiel)",
+                    fr: "Activer le bouton 'Localisez-moi' (seulement sur mobile)",
                     de: "Die Schaltfläche 'Mich geolokalisieren' aktivieren (nur für Mobil)",
                 }),
                 fsIncludeCurrentBackgroundMap: new T({
                     en: "Include the current background choice <b>{name}</b>",
                     nl: "Gebruik de huidige achtergrond <b>{name}</b>",
+                    fr: "Include le choix actuel d'arrière plan <b>{name}</b>",
                     de: "Die aktuelle Hintergrundwahl einschließen <b>{name}</b>",
                 }),
                 fsIncludeCurrentLayers: new T({
                     en: "Include the current layer choices",
                     nl: "Toon enkel de huidig getoonde lagen",
+                    fr: "Inclure la couche selectionnée",
                     de: "Die aktuelle Ebenenauswahl einbeziehen"
                 }),
                 fsIncludeCurrentLocation: new T({
                     en: "Include current location",
                     nl: "Start op de huidige locatie",
+                    fr: "Inclure l'emplacement actuel",
                     de: "Aktuelle Position einbeziehen"
                 })
             },
@@ -659,7 +679,7 @@ export default class Translations {
                     en: "<h3>More thematic maps?</h3>Do you enjoy collecting geodata? <br/>There are more themes available.",
                     ca: "<h3>Més peticions</h3>T\'agrada captar dades? <br/>Hi ha més capes disponibles.",
                     es: "<h3>Más peticiones</h3>Te gusta captar datos? <br/>Hay más capas disponibles.",
-                    fr: "<h3>Plus de thème </h3>Vous aimez collecter des données? <br/>Il y a plus de thèmes disponible.",
+                    fr: "<h3>Plus de thèmes </h3>Vous aimez collecter des données? <br/>Il y a plus de thèmes disponibles.",
                     nl: "<h3>Meer thematische kaarten</h3>Vind je het leuk om geodata te verzamelen? <br/> Hier vind je meer kaartthemas.",
                     gl: "<h3>Máis tarefas</h3>Góstache captar datos? <br/>Hai máis capas dispoñíbeis.",
                     de: "<h3>Weitere Quests</h3>Sammeln Sie gerne Geodaten? <br/>Es sind weitere Themen verfügbar."
@@ -670,7 +690,7 @@ export default class Translations {
                     ca: "Si vols que et fem una petició pròpia , demana-la <a href='https://github.com/pietervdvn/MapComplete/issues' target='_blank'>aquí</a>",
                     es: "Si quieres que te hagamos una petición propia , pídela <a href='https://github.com/pietervdvn/MapComplete/issues' target='_blank'>aquí</a>",
                     nl: "Wil je een eigen kaartthema, vraag dit <a href='https://github.com/pietervdvn/MapComplete/issues' target='_blank'>hier aan</a>",
-                    fr: "Si vous voulez une autre carte thématique, demandez <a href='https://github.com/pietervdvn/MapComplete/issues' target='_blank'>ici</a>",
+                    fr: "Si vous voulez une autre carte thématique, demandez-la <a href='https://github.com/pietervdvn/MapComplete/issues' target='_blank'>ici</a>",
                     gl: "Se queres que che fagamos unha tarefa propia , pídea <a href='https://github.com/pietervdvn/MapComplete/issues' target='_blank'>aquí</a>",
                     de: "Wenn Sie einen speziell angefertigte Quest wünschen, können Sie diesen <a href='https://github.com/pietervdvn/MapComplete/issues' target='_blank'>hier</a> anfragen",
                 }),
@@ -699,7 +719,7 @@ export default class Translations {
                 ca: "Llegeix tots els teus missatges d\'OpenStreetMap abans d\'afegir nous punts.",
                 es: "Lee todos tus mensajes de OpenStreetMap antes de añadir nuevos puntos.",
                 nl: "Gelieve eerst je berichten op OpenStreetMap te lezen alvorens nieuwe punten toe te voegen.",
-                fr: "Merci de lire tout vos messages d'OpenStreetMap avant d'ajouter un nouveau point.",
+                fr: "Merci de lire tous vos messages sur OpenStreetMap avant d'ajouter un nouveau point.",
                 gl: "Le todos a túas mensaxes do OpenStreetMap antes de engadir novos puntos.",
                 de: "Bitte lesen Sie alle Ihre OpenStreetMap-Nachrichten, bevor Sie einen neuen Punkt hinzufügen"
             }),
@@ -708,7 +728,7 @@ export default class Translations {
                 ca: "Contesta unes quantes preguntes sobre punts existents abans d\'afegir-ne un de nou.",
                 es: "Contesta unas cuantas preguntas sobre puntos existentes antes de añadir nuevos.",
                 nl: "Gelieve eerst enkele vragen van bestaande punten te beantwoorden vooraleer zelf punten toe te voegen.",
-                fr: "Merci de répondre à quelques questions à propos de point déjà existant avant d'ajouter de nouveaux points",
+                fr: "Merci de répondre à quelques questions à propos de points déjà existants avant d'ajouter de nouveaux points",
                 gl: "Responde unhas cantas preguntas sobre puntos existentes antes de engadir novos.",
                 de: "Bitte beantworten Sie ein paar Fragen zu bestehenden Punkten, bevor Sie einen neuen Punkt hinzufügen."
             }),
@@ -726,13 +746,13 @@ export default class Translations {
                 es: "Entra en OpenStreetMap para empezar",
                 ca: "Entra a OpenStreetMap per començar",
                 nl: "Login met OpenStreetMap om te beginnen",
-                fr: "Connectez vous avec OpenStreetMap pour commencer",
+                fr: "Connectez-vous avec OpenStreetMap pour commencer",
                 de: "Mit OpenStreetMap einloggen und loslegen"
             }),
             getStartedNewAccount: new T({
                 en: " or <a href='https://www.openstreetmap.org/user/new' target='_blank'>create a new account</a>",
                 nl: " of <a href='https://www.openstreetmap.org/user/new' target='_blank'>maak een nieuwe account aan</a> ",
-                fr: " ou <a href='https://www.openstreetmap.org/user/new' target='_blank'>registrez vous</a>",
+                fr: " ou <a href='https://www.openstreetmap.org/user/new' target='_blank'>enregistrez-vous</a>",
                 es: " o <a href='https://www.openstreetmap.org/user/new' target='_blank'>crea una nueva cuenta</a>",
                 ca: " o <a href='https://www.openstreetmap.org/user/new' target='_blank'>crea un nou compte</a>",
                 gl: " ou <a href='https://www.openstreetmap.org/user/new' target='_blank'>crea unha nova conta</a>",
@@ -743,12 +763,14 @@ export default class Translations {
                 es: "No se han seleccionado etiquetas",
                 ca: "No s\'han seleccionat etiquetes",
                 gl: "Non se seleccionaron etiquetas",
+                fr: "Aucune balise sélectionnée",
                 de: "Keine Tags ausgewählt"
             }),
             customThemeIntro: new T({
                 en: "<h3>Custom themes</h3>These are previously visited user-generated themes.",
                 nl: "<h3>Onofficiële themea's</h3>Je bezocht deze thema's gemaakt door andere OpenStreetMappers eerder",
                 gl: "<h3>Temas personalizados</h3>Estes son temas xerados por usuarios previamente visitados.",
+                fr: "<h3>Thèmes personnalisés</h3>Vous avez déjà visité ces thèmes personnalisés.",
                 de: "<h3>Kundenspezifische Themen</h3>Dies sind zuvor besuchte benutzergenerierte Themen"
             }),
             aboutMapcomplete: new T({
@@ -801,11 +823,13 @@ export default class Translations {
             backgroundMap: new T({
                 "en": "Background map",
                 "nl": "Achtergrondkaart",
+                "fr": "Carte de fonds",
                 "de": "Hintergrundkarte"
             }),
             zoomInToSeeThisLayer: new T({
                 "en": "Zoom in to see this layer",
                 "nl": "Vergroot de kaart om deze laag te zien",
+                "fr": "Aggrandissez la carte pour voir cette couche",
                 "de": "Vergrößern, um diese Ebene zu sehen"
             }),
             weekdays: {
@@ -823,17 +847,17 @@ export default class Translations {
                     wednesday: new T({
                         "en": "Wed",
                         "nl": "Woe",
-                        "fr": "Mercr",
+                        "fr": "Mer",
                     }),
                     thursday: new T({
                         "en": "Thu",
                         "nl": "Don",
-                        "fr": "Jeudi",
+                        "fr": "Jeu",
                     }),
                     friday: new T({
                         "en": "Fri",
                         "nl": "Vrij",
-                        "fr": "Vendr",
+                        "fr": "Ven",
                     }),
                     saturday: new T({
                         "en": "Sat",
@@ -879,32 +903,38 @@ export default class Translations {
                 sunday: new T({
                     "en": "Sunday",
                     "nl": "Zondag",
-                    "fr": "Dimance",
+                    "fr": "Dimanche",
                 })
             },
             opening_hours: {
                 open_during_ph: new T({
                     "nl": "Op een feestdag is deze zaak",
-                    "en":"During a public holiday, this amenity is"
+                    "en":"During a public holiday, this amenity is",
+                    "fr": "Pendant les congés, ce lieu est"
                 }),
                 opensAt: new T({
                     "en": "from",
-                    "nl": "vanaf"
+                    "nl": "vanaf",
+                    "fr": "à partir de"
                 }), openTill: new T({
                     "en": "till",
-                    "nl": "tot"
+                    "nl": "tot",
+                    "fr": "jusqu'à"
                 }),
                 not_all_rules_parsed: new T({
-                    "en": "The openin hours of this shop are complicated. The following rules are ignored in the input element:"
+                    "en": "The opening hours of this shop are complicated. The following rules are ignored in the input element:",
+                    "fr": "Les heures d'ouvertures de ce magasin sont trop compliquées. Les heures suivantes ont été ignorées:"
                 }),
                 closed_until: new T({
                     "en": "Closed until {date}",
-                    "nl": "Gesloten - open op {date}"
+                    "nl": "Gesloten - open op {date}",
+                    "fr": "Fermé jusqu'à"
                 }),
 
                 closed_permanently: new T({
                     "en": "Closed - no opening day known",
-                    "nl": "Gesloten"
+                    "nl": "Gesloten",
+                    "fr": "Fermé - Heures d'ouvertures inconnues"
                 }),
                 ph_not_known: new T({
                     "en": " ",
@@ -912,10 +942,12 @@ export default class Translations {
                 }),
                 ph_closed: new T({
                     "en": "closed",
-                    "nl": "gesloten"
+                    "nl": "gesloten",
+                    "fr": "fermé"
                 }), ph_open: new T({
                     "en": "opened",
-                    "nl": "open"
+                    "nl": "open",
+                    "fr": "ouvert"
                 })
 
 
@@ -928,6 +960,7 @@ export default class Translations {
                 es: "Interficie personal",
                 ca: "Interfície personal",
                 gl: "Tema personalizado",
+                fr: "Thème personnel",
                 de: "Persönliches Thema"
             }),
             description: new T({
@@ -935,6 +968,7 @@ export default class Translations {
                 es: "Crea una interficie basada en todas las capas disponibles de todas las interficies",
                 ca: "Crea una interfície basada en totes les capes disponibles de totes les interfícies",
                 gl: "Crea un tema baseado en todas as capas dispoñíbeis de todos os temas",
+                fr: "Créer un thème personnel sur base de toutes les couches disponibles",
                 de: "Erstellen Sie ein persönliches Thema auf der Grundlage aller verfügbaren Ebenen aller Themen"
             }),
             panelIntro: new T({
@@ -942,6 +976,7 @@ export default class Translations {
                 ca: "<h3>La teva interfície personal</h3>Activa les teves capes favorites de totes les interfícies oficials",
                 es: "<h3>Tu interficie personal</h3>Activa tus capas favoritas de todas las interficies oficiales",
                 gl: "<h3>O teu tema personalizado</h3>Activa as túas capas favoritas de todos os temas oficiais",
+                fr: "<h3>Votre thème personnel</h3>Activer vos couches favorites depuis les thèmes officiels",
                 de: "<h3>Ihr persönliches Thema</h3>Aktivieren Sie Ihre Lieblingsebenen aus allen offiziellen Themen"
             }),
             loginNeeded: new T({
@@ -949,6 +984,7 @@ export default class Translations {
                 es: "<h3>Entrar</h3>El diseño personalizado sólo está disponible para los usuarios de OpenstreetMap",
                 ca: "<h3>Entrar</h3>El disseny personalizat només està disponible pels usuaris d\' OpenstreetMap",
                 gl: "<h3>Iniciar a sesión</h3>O deseño personalizado só está dispoñíbel para os usuarios do OpenstreetMap",
+                fr: "<h3>Connexion</h3>La mise en forme personnalisée requiert un compte OpenStreetMap",
                 de: "<h3>Anmelden</h3>Ein persönliches Layout ist nur für OpenStreetMap-Benutzer verfügbar",
             }),
             reload: new T({
@@ -956,6 +992,7 @@ export default class Translations {
                 es: "Recarga los datos",
                 ca: "Recarrega les dades",
                 gl: "Recargar os datos",
+                fr: "Recharger les données",
                 de: "Daten neu laden"
             })
         }
